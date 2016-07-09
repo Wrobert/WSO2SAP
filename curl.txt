@@ -1,0 +1,2 @@
+http://sapdb10.ad.bls.ch:8000/sap/bc/srt/rfc/sap/zwbsrv_vbe_load?wsdl
+
