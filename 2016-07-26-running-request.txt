@@ -1,0 +1,43 @@
+POST http://localhost:8088/sap/bc/srt/rfc/bic/cqz_test_00001000/100/cqz_test_00001000/cqz_test_00001000 HTTP/1.1
+Accept-Encoding: gzip,deflate
+Proxy-Authorization: Basic b2V0dGVybGljOnJ3eXJ3eXJ3eQ==
+Content-Type: text/xml; charset=UTF-8
+SOAPAction: "urn:sap-com:document:sap:soap:functions:mc-style:_-BIC_-CQZ_TEST_00001000:_-bic_-cqzTest00001000Request"
+Host: localhost:8088
+Connection: Keep-Alive
+User-Agent: Synapse-PT-HttpComponents-NIO
+Content-Length: 2120
+
+<?xml version='1.0' encoding='UTF-8'?><SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <SOAP-ENV:Header>
+      <WSCorIDSOAPHeader xmlns="http://www.wilytech.com/" CorID="0D69F233AC1B361A7C137FD513C77A2F,1:1,0,1,niesen026|SAP Netweaver|DP1_J00_server0|WebServices|Client|urn_sap-com_document_sap_soap_functions_mc-style|_-bic_-cqzTest00001000,2,AgAAALJIQgAAAAFGAAAAAQAAABFqYXZhLnV0aWwuSGFzaE1hcAAAAAJIQgAAAAJGAAAAAgAAABBqYXZhLmxhbmcuU3RyaW5nAA9DYWxsZXJUaW1lc3RhbXBIQgAAAANFAAAAAgANMTQ2OTEwMzg2MjMyM0hCAAAABEUAAAACAApUeG5UcmFjZUlkSEIAAAAFRQAAAAIAIDBENjlGMjIzQUMxQjM2MUE3QzEzN0ZENUNCQjUyNkFC"/>
+   </SOAP-ENV:Header>
+   <SOAP-ENV:Body>
+      <yq1:_-bic_-cqzTest00001000 xmlns:yq1="urn:sap-com:document:sap:soap:functions:mc-style">
+         <Data>
+            <item>
+               <Channelid>10</Channelid>
+               <Reservationid>01234567890123</Reservationid>
+               <Reservationreferenceid>01234567</Reservationreferenceid>
+               <Creationdatetime>28/06/2017 06:01:50</Creationdatetime>
+               <Productid>125</Productid>
+               <Currency>CHF</Currency>
+               <Amountincents>4400</Amountincents>
+               <Vatpercentincents>800</Vatpercentincents>
+               <Personfirstname>Robert</Personfirstname>
+               <Personlastname>Wydler</Personlastname>
+               <Personbirthdate>02/01/1980</Personbirthdate>
+               <Paymentid>VBMI16062860016526</Paymentid>
+               <Paymentmethod>VBM</Paymentmethod>
+               <Paymentdatetime>28/06/2016 06:01:50</Paymentdatetime>
+               <Classtype>1</Classtype>
+               <Travellertype>PERSON</Travellertype>
+               <Triptype>EINFACH</Triptype>
+               <Ticketvalidfromdate>29/06/2016</Ticketvalidfromdate>
+               <Ticketvalidtodate>29/06/2016</Ticketvalidtodate>
+               <Usageduration>1 Tage</Usageduration>
+            </item>
+         </Data>
+      </yq1:_-bic_-cqzTest00001000>
+   </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

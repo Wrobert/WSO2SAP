@@ -349,7 +349,7 @@
       <wsoap12:address location="http://sapdb10.ad.bls.ch:8000/sap/bc/srt/rfc/bic/cqz_test_00001000/100/cqz_test_00001000/cqz_test_00001000"/>
     </wsdl:port>
   </wsdl:service>
-</wsdl:definitions>]]></con:content><con:type>http://schemas.xmlsoap.org/wsdl/</con:type></con:part></con:definitionCache><con:endpoints><con:endpoint>http://127.0.0.1:8888/sap/bc/srt/rfc/bic/cqz_test_00001000/100/cqz_test_00001000/cqz_test_00001000</con:endpoint><con:endpoint>http://127.0.0.7:8088/sap/bc/srt/rfc/bic/cqz_test_00001000/100/cqz_test_00001000/cqz_test_00001000</con:endpoint><con:endpoint>http://NB1412:8088/sap/bc/srt/rfc/bic/cqz_test_00001000/100/cqz_test_00001000/cqz_test_00001000</con:endpoint><con:endpoint>http://NB1412:8280/services/SapProxy</con:endpoint><con:endpoint>http://sapdb10.ad.bls.ch:8000/sap/bc/srt/rfc/bic/cqz_test_00001000/100/cqz_test_00001000/cqz_test_00001000</con:endpoint></con:endpoints><con:operation id="76f2ce69-972f-4a6c-a886-8221aa7baf72" isOneWay="false" action="urn:sap-com:document:sap:soap:functions:mc-style:_-BIC_-CQZ_TEST_00001000:_-bic_-cqzTest00001000Request" name="_-bic_-cqzTest00001000" bindingOperationName="_-bic_-cqzTest00001000" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="dd73829c-7d27-4163-83dc-4f0bbcd28f6c" name="Request 1"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@bind_address"/></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://NB1412:8280/services/SapProxy</con:endpoint><con:request><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+</wsdl:definitions>]]></con:content><con:type>http://schemas.xmlsoap.org/wsdl/</con:type></con:part></con:definitionCache><con:endpoints><con:endpoint>http://127.0.0.1:8888/sap/bc/srt/rfc/bic/cqz_test_00001000/100/cqz_test_00001000/cqz_test_00001000</con:endpoint><con:endpoint>http://127.0.0.7:8088/sap/bc/srt/rfc/bic/cqz_test_00001000/100/cqz_test_00001000/cqz_test_00001000</con:endpoint><con:endpoint>http://NB1412:8088/sap/bc/srt/rfc/bic/cqz_test_00001000/100/cqz_test_00001000/cqz_test_00001000</con:endpoint><con:endpoint>http://NB1412:8280/services/SapProxy</con:endpoint><con:endpoint>http://sapdb10.ad.bls.ch:8000/sap/bc/srt/rfc/bic/cqz_test_00001000/100/cqz_test_00001000/cqz_test_00001000</con:endpoint></con:endpoints><con:operation id="76f2ce69-972f-4a6c-a886-8221aa7baf72" isOneWay="false" action="urn:sap-com:document:sap:soap:functions:mc-style:_-BIC_-CQZ_TEST_00001000:_-bic_-cqzTest00001000Request" name="_-bic_-cqzTest00001000" bindingOperationName="_-bic_-cqzTest00001000" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="dd73829c-7d27-4163-83dc-4f0bbcd28f6c" name="Request 1"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@bind_address"/><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@skip_soap_action">false</con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://NB1412:8280/services/SapProxy</con:endpoint><con:request><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <SOAP-ENV:Envelope xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">\r
    <SOAP-ENV:Header>\r
       <WSCorIDSOAPHeader CorID="0D69F233AC1B361A7C137FD513C77A2F,1:1,0,1,niesen026|SAP Netweaver|DP1_J00_server0|WebServices|Client|urn_sap-com_document_sap_soap_functions_mc-style|_-bic_-cqzTest00001000,2,AgAAALJIQgAAAAFGAAAAAQAAABFqYXZhLnV0aWwuSGFzaE1hcAAAAAJIQgAAAAJGAAAAAgAAABBqYXZhLmxhbmcuU3RyaW5nAA9DYWxsZXJUaW1lc3RhbXBIQgAAAANFAAAAAgANMTQ2OTEwMzg2MjMyM0hCAAAABEUAAAACAApUeG5UcmFjZUlkSEIAAAAFRQAAAAIAIDBENjlGMjIzQUMxQjM2MUE3QzEzN0ZENUNCQjUyNkFC" xmlns="http://www.wilytech.com/"/>\r
@@ -382,56 +382,22 @@
          </Data>\r
       </yq1:_-bic_-cqzTest00001000>\r
    </SOAP-ENV:Body>\r
-</SOAP-ENV:Envelope>]]></con:request><con:credentials><con:username>oetterlic</con:username><con:password>rwyrwyrwy</con:password><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:preemptive>false</con:preemptive><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="urn:sap-com:document:sap:soap:functions:mc-style:_-BIC_-CQZ_TEST_00001000:_-bic_-cqzTest00001000Request"/><con:wsrmConfig version="1.2"/></con:call></con:operation></con:interface><con:mockService id="c1365ef6-de21-4f4a-8cc6-cbefd9c15650" port="8088" path="/sap/bc/srt/rfc/bic/cqz_test_00001000/100/cqz_test_00001000/cqz_test_00001000" host="127.0.0.1" name="MOCK_CQZ_TEST_00001000 MockService" bindToHostOnly="true" docroot="" dispatchResponseMessages="true"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.mock.WsdlMockService@require-soap-action">false</con:setting></con:settings><con:properties/><con:onRequestScript>import com.eviware.soapui.support.types.StringToStringsMap;   
- // Get the global properties  
- def globalProperties = com.eviware.soapui.model.propertyexpansion.PropertyExpansionUtils.globalProperties;   
- String httpUsername = globalProperties['httpUsername'].value;  
- String httpPassword = globalProperties['httpPassword'].value;   
- 
- // Setup error results  
- def errorResult = {
- def response = new com.eviware.soapui.impl.wsdl.mock.WsdlMockResult( mockRequest )
- mockRequest.httpResponse.status = 401
- mockRequest.httpResponse.writer &lt;&lt; "ERROR"
- return response
-}
- // Get the Request Headers  
-def auth = mockRequest.requestHeaders["Authorization"] 
-if ( auth  ) {
-      def value = auth[0]
-      if ( value.startsWith("Basic ")) {
-       value = value.substring( 6 )
-       def up = new String(value.decodeBase64()).split(":")
-       def user = up[0]
-       def pass = up[1]
-       log.info "$user $pass"
-       if( !(user == httpUsername &amp;&amp; pass == httpPassword) ) {
-        return errorResult.call()
-       }
-      } else {
-       return errorResult.call()
-      }  
-   } else {
-    return errorResult.call()
-   }</con:onRequestScript><con:mockOperation name="_-bic_-cqzTest00001000" id="b6d64053-123a-42b0-b25d-787d2c51205e" interface="CQZ_TEST_00001000" operation="_-bic_-cqzTest00001000"><con:settings/><con:defaultResponse>Mock-Response</con:defaultResponse><con:dispatchStyle>SEQUENCE</con:dispatchStyle><con:response name="Mock-Response" id="b3c08446-99c5-4f47-a4a0-a8614e09db27" httpResponseStatus="200" encoding="UTF-8"><con:settings/><con:script>context.sessionid=Math.random()
+</SOAP-ENV:Envelope>]]></con:request><con:credentials><con:username/><con:password/><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:preemptive>false</con:preemptive><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="urn:sap-com:document:sap:soap:functions:mc-style:_-BIC_-CQZ_TEST_00001000:_-bic_-cqzTest00001000Request"/><con:wsrmConfig version="1.2"/></con:call></con:operation></con:interface><con:mockService id="5d73ea07-1872-4e04-9faf-1ab6c71bcffd" port="8088" path="/sap/bc/srt/rfc/bic/cqz_test_00001000/100/cqz_test_00001000/cqz_test_00001000" host="NB1412" name="CQZ_TEST_00001000 MockService"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.mock.WsdlMockService@require-soap-action">false</con:setting></con:settings><con:properties/><con:mockOperation name="_-bic_-cqzTest00001000" id="8ba67e3c-ed53-4c15-82c5-50ca744ac535" interface="CQZ_TEST_00001000" operation="_-bic_-cqzTest00001000"><con:settings/><con:defaultResponse>Response 1</con:defaultResponse><con:dispatchStyle>SEQUENCE</con:dispatchStyle><con:response name="Response 1" id="5251dbc3-4228-49b8-a1c1-613759b921c4" httpResponseStatus="200" encoding="UTF-8"><con:settings/><con:script>context.sessionid=Math.random()
 // create XmlHolder for request content
 def holder = new com.eviware.soapui.support.XmlHolder( mockRequest.requestContent )
 // get argument 
-def arg1 = holder["//Reservationid"]
-def arg2 = holder["//Personfirstname"]
-def arg3 = holder["//Personlastname"]
-context.reservationid=arg1
-context.Personfirstname=arg2
-context.Personlastname=arg3
 
-</con:script><con:responseContent><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
-<SOAP-ENV:Envelope xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-   <SOAP-ENV:Body>
-      <Response>MOCK o.k. Robert !!!</Response>
-      <SessionID>${sessionid}</SessionID>
-      <Reservationid>${reservationid}</Reservationid>
-      <Personfirstname>Robert</Personfirstname>
-      <Personlastname>Wydler</Personlastname>
-      <STATUS>That's it.</STATUS>
-   </SOAP-ENV:Body>
-</SOAP-ENV:Envelope>]]></con:responseContent><con:wsaConfig mustUnderstand="NONE" version="200508" action="urn:sap-com:document:sap:soap:functions:mc-style:_-BIC_-CQZ_TEST_00001000:_-bic_-cqzTest00001000Request"/></con:response><con:dispatchConfig/></con:mockOperation></con:mockService><con:properties/><con:wssContainer/><con:oAuth2ProfileContainer/><con:sensitiveInformation/></con:soapui-project>
+def arg1 = holder["//Reservationid"]
+def arg2 = holder["//Reservationreferenceid"]
+def arg3 = holder["//Personfirstname"]
+def arg4 = holder["//Personlastname"]
+
+context.reservationid=arg1
+context.reservationreferenceid=arg2
+context.personfirstname=arg3
+context.personlastname=arg4</con:script><con:responseContent><![CDATA[<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:sap-com:document:sap:soap:functions:mc-style">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <urn:_-bic_-cqzTest00001000Response>SessionID = ${sessionid}/Reservationid = ${reservationid}/Reservationreferenceid = ${reservationreferenceid}/Personfirstname = ${personfirstname}/Personlastname = ${personlastname}</urn:_-bic_-cqzTest00001000Response>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:responseContent><con:header><con:name>Content-Type</con:name><con:value>text/xml;charset=UTF-8</con:value></con:header><con:wsaConfig mustUnderstand="NONE" version="200508" action="urn:sap-com:document:sap:soap:functions:mc-style:_-BIC_-CQZ_TEST_00001000:_-bic_-cqzTest00001000Request"/></con:response><con:dispatchConfig/></con:mockOperation></con:mockService><con:properties/><con:wssContainer/><con:oAuth2ProfileContainer/><con:sensitiveInformation/></con:soapui-project>
